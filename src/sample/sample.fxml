@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="minutesLabel" layoutX="195.0" layoutY="37.0" prefHeight="69.0" prefWidth="73.0">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="womanButton" layoutX="91.0" layoutY="274.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="73.0" text="Kvinna">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="manButton" layoutX="406.0" layoutY="274.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="73.0" text="Man">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button id="startButton" fx:id="startButton" layoutX="185.0" layoutY="134.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="83.0" text="Start">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="secondsLabel" layoutX="294.0" layoutY="37.0" prefHeight="69.0" prefWidth="73.0">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" layoutY="-22.0" text=".">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" text=".">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Button id="stopButton" fx:id="stopButton" layoutX="294.0" layoutY="134.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="94.0" text="Stopp">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="statistikButton" layoutX="240.0" layoutY="334.0" mnemonicParsing="false" text="Se statistik">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
